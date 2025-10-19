@@ -4,3 +4,6 @@ install-dependencies:
 
 start:
 	NVM_DIR="$${HOME}/.nvm" && . "$${NVM_DIR}/nvm.sh" && nvm use && npm start
+
+build:
+	NVM_DIR="$${HOME}/.nvm" && . "$${NVM_DIR}/nvm.sh" && nvm use && npm run build
