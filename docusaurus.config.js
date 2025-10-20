@@ -9,6 +9,7 @@ const config = {
             {
                 docs: {
                     routeBasePath: '/',
+                    breadcrumbs: false
                 },
                 blog: false,
             },
