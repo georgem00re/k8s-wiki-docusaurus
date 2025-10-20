@@ -14,6 +14,23 @@ const config = {
             },
         ],
     ],
+    themeConfig: {
+        colorMode: {
+            defaultMode: "light",
+            disableSwitch: false,
+        },
+        docs: {
+            sidebar: {
+                hideable: true
+            }
+        },
+        navbar: {
+            title: "George's Kubernetes Wiki",
+            logo: {
+                src: "img/k8s-logo.svg",
+            }
+        }
+    }
 };
 
 export default config;
