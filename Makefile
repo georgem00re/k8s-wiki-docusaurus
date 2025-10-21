@@ -1,9 +1,9 @@
 
-install-dependencies:
-	NVM_DIR="$${HOME}/.nvm" && . "$${NVM_DIR}/nvm.sh" && nvm use && npm install
+docusaurus-install-dependencies:
+	NVM_DIR="$${HOME}/.nvm" && . "$${NVM_DIR}/nvm.sh" && cd docusaurus && nvm use && npm install
 
-start:
-	NVM_DIR="$${HOME}/.nvm" && . "$${NVM_DIR}/nvm.sh" && nvm use && npm start
+docusaurus-start:
+	NVM_DIR="$${HOME}/.nvm" && . "$${NVM_DIR}/nvm.sh" && cd docusaurus && nvm use && npm start
 
-build:
-	NVM_DIR="$${HOME}/.nvm" && . "$${NVM_DIR}/nvm.sh" && nvm use && npm run build
+docusaurus-build:
+	NVM_DIR="$${HOME}/.nvm" && . "$${NVM_DIR}/nvm.sh" && cd docusaurus && nvm use && npm run build
