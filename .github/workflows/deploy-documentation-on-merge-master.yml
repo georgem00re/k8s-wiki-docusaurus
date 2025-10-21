@@ -18,7 +18,9 @@ jobs:
         with:
           node-version-file: "docusaurus/.nvmrc"
       - run: npm ci
-      - run:  npm run build
+      - uses: ./.github/actions/get-repository-name
+        id: get-repository-name
+      - run: REPOSITORY_NAME=${{ steps.get-repository-name.outputs.repository-name }} npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docusaurus/build
@@ -29,4 +31,3 @@ jobs:
       name: github-pages
     steps:
       - uses: actions/deploy-pages@v4
-        id: deploy-to-gh-pages

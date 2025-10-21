@@ -1,9 +1,12 @@
+
+const repositoryName = process.env.REPOSITORY_NAME || '';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'Kubernetes (K8s) Wiki',
     url: 'http://localhost',
     favicon: "img/k8s-logo.svg",
-    baseUrl: '/',
+    baseUrl: repositoryName ? `/${repositoryName}/` : '/',
     presets: [
         [
             'classic',
