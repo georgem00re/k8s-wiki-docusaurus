@@ -1,0 +1,13 @@
+name: get-repository-name
+outputs:
+  repository-name:
+    description: "The GitHub repository name"
+    value: ${{ steps.output-repository-name.outputs.repository-name }}
+runs:
+  using: "composite"
+  steps:
+    - name: Output repository name
+      id: output-repository-name
+      shell: bash
+      run: |
+        echo "repository-name=${GITHUB_REPOSITORY#*/}" >> "$GITHUB_OUTPUT"
