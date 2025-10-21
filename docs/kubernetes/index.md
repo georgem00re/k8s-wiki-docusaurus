@@ -3,9 +3,9 @@
 
 ## Container Orchestration
 
-Kubernetes, also known as K8s, is an open-source container orchestration platform.
+Kubernetes, also known as K8s, is an open-source [container orchestration](../concepts/container_orchestration) platform.
 
-It is used to deploy, manage, and scale containerised applications.
+It is used to deploy, manage, and scale [containerised applications](../concepts/containerised_application).
 
 ## Clusters
 
