@@ -1,0 +1,32 @@
+name: deploy-documentation-on-merge-master
+on:
+  push:
+    branches:
+      - master
+permissions:
+  pages: write
+  id-token: write
+jobs:
+  upload-pages-artifact:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docusaurus
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: "docusaurus/.nvmrc"
+      - run: npm ci
+      - run:  npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docusaurus/build
+  deploy-artifact-to-pages:
+    runs-on: ubuntu-latest
+    needs: upload-pages-artifact
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deploy-to-gh-pages
