@@ -1,7 +1,7 @@
 
 # Declarative Configuration
 
-[Kubernetes](../../kubernetes/introduction) is **declarative**. You describe the desired state of your 
+[Kubernetes](../what-is-kubernetes) is **declarative**. You describe the desired state of your 
 [containerised application](../../concepts/containerised-application), and Kubernetes constantly reconciles reality 
 against that declaration, taking whatever actions are needed to achieve it. 
 
