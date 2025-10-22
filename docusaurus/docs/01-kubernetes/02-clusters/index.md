@@ -1,8 +1,8 @@
 
 # Clusters
 
-[Kubernetes](../what-is-kubernetes) runs [containerised applications](../../03-concepts/containerised-application) 
-on clusters.
+## What is a Cluster?
 
-A **cluster** is a collection of [nodes](../nodes) that coordinate and worth together as a single unified 
+[Kubernetes](../what-is-kubernetes) hosts [containerised applications](../../03-concepts/containerised-application) 
+on clusters. A **cluster** is a collection of [nodes](../nodes) that coordinate and work together as a single coherent 
 system.
