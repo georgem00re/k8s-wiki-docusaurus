@@ -1,7 +1,7 @@
 
 # AWS-Managed Control Plane
 
-When you deploy a [cluster](../../kubernetes/02-clusters) using [Amazon EKS](../01-what-is-amazon-eks), AWS manages 
+When you deploy a [cluster](../../kubernetes/clusters) using [Amazon EKS](../what-is-amazon-eks), AWS manages 
 the control plane for you.
 
 AWS automatically provisions and runs all control plane components for you across multiple availability zones. The 
