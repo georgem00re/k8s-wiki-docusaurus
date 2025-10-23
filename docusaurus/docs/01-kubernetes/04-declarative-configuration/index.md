@@ -2,7 +2,7 @@
 # Declarative Configuration
 
 [Kubernetes](../what-is-kubernetes) is **declarative**. You describe the desired state of your 
-[containerised application](../../03-concepts/containerised-application), and Kubernetes constantly reconciles reality 
+[containerised application](../../concepts/containerised-application), and Kubernetes constantly reconciles reality 
 against that declaration, taking whatever actions are needed to achieve it. 
 
 The desired state of your application is described as a series of Kubernetes objects defined in YAML manifests. 
