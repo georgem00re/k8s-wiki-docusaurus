@@ -1,5 +1,7 @@
 
-export default {
+import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
+
+const sidebars: SidebarsConfig = {
     sidebar: [
         {
             type: "category", label: "Kubernetes", items: [
@@ -32,3 +34,5 @@ export default {
         },
     ],
 };
+
+export default sidebars;

@@ -1,8 +1,10 @@
 
+import type {Config} from '@docusaurus/types';
+
 const repositoryName = process.env.REPOSITORY_NAME || '';
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+const config: Config = {
     title: 'Kubernetes (K8s) Wiki',
     url: 'http://localhost',
     favicon: "img/k8s-logo.svg",
@@ -14,7 +16,7 @@ const config = {
                 docs: {
                     routeBasePath: '/',
                     breadcrumbs: false,
-                    sidebarPath: "./sidebars.js"
+                    sidebarPath: "./sidebars.ts"
                 },
                 blog: false,
             },
