@@ -13,7 +13,8 @@ const config = {
             {
                 docs: {
                     routeBasePath: '/',
-                    breadcrumbs: false
+                    breadcrumbs: false,
+                    sidebarPath: "./sidebars.js"
                 },
                 blog: false,
             },
