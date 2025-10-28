@@ -30,6 +30,7 @@ const sidebars: SidebarsConfig = {
                 { type: 'doc', id: 'concepts/distributed-system/index', label: 'Distributed System' },
                 { type: 'doc', id: 'concepts/ephemerality/index', label: 'Ephemerality' },
                 { type: 'doc', id: 'concepts/kubectl/index', label: 'Kubectl' },
+                { type: 'doc', id: 'concepts/minikube/index', label: 'Minikube' },
             ]
         },
     ],
