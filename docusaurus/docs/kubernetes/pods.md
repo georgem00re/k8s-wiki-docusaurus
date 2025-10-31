@@ -3,8 +3,8 @@
 
 ## What is a Pod?
 
-The **pod** is the smallest deployable unit in [Kubernetes](../what-is-kubernetes).
-It is a [native object](../native-objects) that represents a logical grouping of one or more related containers that 
+The **pod** is the smallest deployable unit in [Kubernetes](what-is-kubernetes).
+It is a [native object](native-objects) that represents a logical grouping of one or more related containers that 
 share the same network and storage resources. 
 You can think of a pod as a small, self-contained computing environment in which one or more closely-related containers 
 are executed together.
@@ -18,7 +18,7 @@ managed together.
 ## Resource Allocation
 
 Unlike containers, which don't have computing resources inherently allocated to them, pods are assigned CPU and memory
-(RAM) from the [nodes](../nodes) where they're scheduled to run. A single node can usually host many pods,
+(RAM) from the [nodes](nodes) where they're scheduled to run. A single node can usually host many pods,
 depending on the node's resource capacity and the pods' requirements.
 
 ## Pod Manifests
@@ -29,7 +29,7 @@ images, environment variables, storage volumes, and so on.
 
 ## Pods are Ephemeral
 
-Pods are [**ephemeral**](../../concepts/ephemerality) - they often restart, crash, or get replaced during updates.
+Pods are [**ephemeral**](../concepts/ephemerality) - they often restart, crash, or get replaced during updates.
 Each time that happens, they are allocated a new IP address.
 Because pods can be created and destroyed at any time, they should be treated as short-lived, disposable resources.
 
