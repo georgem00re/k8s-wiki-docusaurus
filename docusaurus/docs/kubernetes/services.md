@@ -5,7 +5,7 @@
 
 In [Kubernetes](what-is-kubernetes), a **service** is a [native object](native-objects) that can be used to assign
 stable network identities to [pods](pods).
-Because pods are [ephemeral](../concepts/ephemerality), their IP addresses can change whenever they are recreated.
+Because pods are [ephemeral](../terminology/ephemerality), their IP addresses can change whenever they are recreated.
 A service assigns a persistent virtual IP address (and DNS name) to a group of one or more pods, providing a stable
 network endpoint that remains the same even as the underlying pods come and go.
 

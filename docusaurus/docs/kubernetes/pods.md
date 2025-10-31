@@ -29,7 +29,7 @@ images, environment variables, storage volumes, and so on.
 
 ## Pods are Ephemeral
 
-Pods are [**ephemeral**](../concepts/ephemerality) - they often restart, crash, or get replaced during updates.
+Pods are [**ephemeral**](../terminology/ephemerality) - they often restart, crash, or get replaced during updates.
 Each time that happens, they are allocated a new IP address.
 Because pods can be created and destroyed at any time, they should be treated as short-lived, disposable resources.
 
