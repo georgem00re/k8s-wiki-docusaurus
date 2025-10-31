@@ -41,12 +41,12 @@ const sidebars: SidebarsConfig = {
         },
         {
             type: "category", label: "Concepts", items: [
-                { type: 'doc', id: 'concepts/containerised-application/index', label: 'Containerised Application' },
-                { type: 'doc', id: 'concepts/container-orchestration/index', label: 'Container Orchestration' },
-                { type: 'doc', id: 'concepts/distributed-system/index', label: 'Distributed System' },
-                { type: 'doc', id: 'concepts/ephemerality/index', label: 'Ephemerality' },
-                { type: 'doc', id: 'concepts/kubectl/index', label: 'Kubectl' },
-                { type: 'doc', id: 'concepts/minikube/index', label: 'Minikube' },
+                { type: 'doc', id: 'concepts/containerised-application', label: 'Containerised Application' },
+                { type: 'doc', id: 'concepts/container-orchestration', label: 'Container Orchestration' },
+                { type: 'doc', id: 'concepts/distributed-system', label: 'Distributed System' },
+                { type: 'doc', id: 'concepts/ephemerality', label: 'Ephemerality' },
+                { type: 'doc', id: 'concepts/kubectl', label: 'Kubectl' },
+                { type: 'doc', id: 'concepts/minikube', label: 'Minikube' },
             ]
         },
     ],
