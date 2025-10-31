@@ -3,13 +3,8 @@
 
 ## Kubernetes is Declarative
 
-[Kubernetes](../what-is-kubernetes) is **declarative**, which means that you define the desired state of your system — 
-such as which applications should be running, how many replicas they should have, and how they should be exposed — and 
-Kubernetes continuously works to ensure the actual state of the [cluster](../clusters) matches that 
-desired state.
-
-## Object Manifests
-
-The desired state of an application is defined using a set of Kubernetes [objects](../objects) described in YAML 
-manifests. Kubernetes interprets these object definitions and takes the necessary actions to bring the cluster into the 
-specified state.
+[Kubernetes](../what-is-kubernetes) is **declarative**, which means that you define the desired state of your 
+[containerised application](../../concepts/containerised-application) — such as which containers should be running, how 
+many replicas they should have, and how they should be exposed — and Kubernetes continuously works to ensure the actual 
+state of your application matches that desired state.
+The desired state of your application is defined using a series of YAML manifest files.

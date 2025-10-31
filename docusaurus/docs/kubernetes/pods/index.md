@@ -1,12 +1,12 @@
 
-# Kubernetes Pods
+# Pods
 
 ## What is a Pod?
 
 The **pod** is the smallest deployable unit in [Kubernetes](../what-is-kubernetes).
-It is an [object](../objects) that represents a logical grouping of one or more related containers that share the same 
-network and storage resources. 
-You can think of a pod as a small, self-contained computing environment in which one or more closely related containers 
+It is a [native object](../native-objects) that represents a logical grouping of one or more related containers that 
+share the same network and storage resources. 
+You can think of a pod as a small, self-contained computing environment in which one or more closely-related containers 
 are executed together.
 
 ## Amazon ECS Tasks
