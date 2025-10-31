@@ -3,7 +3,7 @@
 
 ## VPC Deployments
 
-To create a [Kubernetes](../../kubernetes/what-is-kubernetes) [cluster](../../kubernetes/architecture#clusters) using 
+To create a [Kubernetes](../../kubernetes/what-is-kubernetes) [cluster](../../kubernetes/clusters) using 
 [Amazon EKS](../what-is-amazon-eks), you must first create an AWS Virtual Private Cloud (VPC) to host the cluster's
 networking resources — this includes subnets, route tables, security groups, and network interfaces.
 Every Amazon EKS cluster is deployed inside a VPC.
@@ -26,7 +26,7 @@ cluster's VPC. Either endpoint can be disabled, and which endpoint you decide to
 
 ## Worker Nodes
 
-In Amazon EKS, worker [nodes](../../kubernetes/architecture#nodes) can run as either Amazon EC2 instances or AWS Fargate 
+In Amazon EKS, worker [nodes](../../kubernetes/nodes) can run as either Amazon EC2 instances or AWS Fargate 
 tasks, depending on the level of control you want over the underlying infrastructure.
 Use AWS Fargate if you prefer a serverless, fully managed compute option where AWS handles the provisioning and scaling 
 of resources.

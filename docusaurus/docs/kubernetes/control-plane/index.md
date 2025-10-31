@@ -3,8 +3,8 @@
 
 ## What is the Control Plane?
 
-A [Kubernetes](../what-is-kubernetes) [cluster](../architecture#clusters) has one or more control plane 
-[nodes](../architecture#nodes).
+A [Kubernetes](../what-is-kubernetes) [cluster](../clusters) has one or more control plane 
+[nodes](../nodes).
 A cluster can run with a single control plane node, but typically has multiple for redundancy and availability.
 A cluster's collective set of control plane nodes (and the processes that run on them) is known as the **control plane**.
 The control plane is considered the 'brain' of the cluster, and is responsible for managing its overall state and

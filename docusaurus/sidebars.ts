@@ -6,7 +6,10 @@ const sidebars: SidebarsConfig = {
         {
             type: "category", label: "Kubernetes", items: [
                 { type: 'doc', id: 'kubernetes/what-is-kubernetes/index', label: 'What is Kubernetes?' },
-                { type: 'doc', id: 'kubernetes/architecture/index', label: 'Architecture' },
+                { type: "category", label: "Architecture", items: [
+                    { type: 'doc', id: 'kubernetes/clusters/index', label: 'Clusters' },
+                    { type: 'doc', id: 'kubernetes/nodes/index', label: 'Nodes' },
+                ]},
                 { type: 'doc', id: 'kubernetes/declarative-configuration/index', label: 'Declarative Configuration' },
                 { type: 'doc', id: 'kubernetes/objects/index', label: 'Objects' },
                 { type: 'doc', id: 'kubernetes/pods/index', label: 'Pods' },

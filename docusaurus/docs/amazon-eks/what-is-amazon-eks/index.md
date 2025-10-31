@@ -5,4 +5,4 @@
 
 **Amazon Elastic Kubernetes Service (EKS)** is AWS's managed [Kubernetes](../../kubernetes/what-is-kubernetes) service.
 In a nutshell, Amazon EKS enables AWS users to deploy, manage, and run Kubernetes 
-[clusters](../../kubernetes/architecture#clusters) in the AWS cloud.
+[clusters](../../kubernetes/clusters) in the AWS cloud.

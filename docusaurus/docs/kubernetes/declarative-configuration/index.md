@@ -5,7 +5,7 @@
 
 [Kubernetes](../what-is-kubernetes) is **declarative**, which means that you define the desired state of your system — 
 such as which applications should be running, how many replicas they should have, and how they should be exposed — and 
-Kubernetes continuously works to ensure the actual state of the [cluster](../architecture#clusters) matches that 
+Kubernetes continuously works to ensure the actual state of the [cluster](../clusters) matches that 
 desired state.
 
 ## Object Manifests

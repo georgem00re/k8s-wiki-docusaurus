@@ -18,7 +18,7 @@ managed together.
 ## Resource Allocation
 
 Unlike containers, which don't have computing resources inherently allocated to them, pods are assigned CPU and memory
-(RAM) from the [nodes](../architecture#nodes) where they're scheduled to run. A single node can usually host many pods,
+(RAM) from the [nodes](../nodes) where they're scheduled to run. A single node can usually host many pods,
 depending on the node's resource capacity and the pods' requirements.
 
 ## Pod Manifests
