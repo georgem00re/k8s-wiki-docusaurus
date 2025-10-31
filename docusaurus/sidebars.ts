@@ -35,8 +35,8 @@ const sidebars: SidebarsConfig = {
         },
         {
             type: "category", label: "Amazon EKS", items: [
-                { type: 'doc', id: 'amazon-eks/what-is-amazon-eks/index', label: 'What is Amazon EKS?' },
-                { type: 'doc', id: 'amazon-eks/architecture/index', label: 'Architecture' },
+                { type: 'doc', id: 'amazon-eks/what-is-amazon-eks', label: 'What is Amazon EKS?' },
+                { type: 'doc', id: 'amazon-eks/architecture', label: 'Architecture' },
             ]
         },
         {
